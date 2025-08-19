@@ -1,0 +1,11 @@
+node {
+    stage ('build'){
+ echo 'This is my first script file'
+    }
+  stage ('test'){
+    echo 'This is test case'
+  }
+  stage ('deploy'){
+    echo 'final deployment'
+     }
+}
